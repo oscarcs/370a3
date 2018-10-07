@@ -43,17 +43,25 @@ cat mount/one.txt mount/two.txt > mount/three.txt
 
 nano mount/three.txt
 
+** create: /.three.txt.swp **
+** write: /.three.txt.swp **
+** flush /.three.txt.swp **
+** release /.three.txt.swp **
 ** open: /three.txt **
 ** read: /three.txt **
 ** flush /three.txt **
 ** release /three.txt **
 ** open: /three.txt **
+** flush /three.txt **
+** release /three.txt **
+** create: /.three.txt.swp **
+** write: /.three.txt.swp **
+** flush /.three.txt.swp **
+** release /.three.txt.swp **
+** open: /three.txt **
 ** truncate: /three.txt **
-** write: /three.txt **
-** write: /three.txt **
-** write: /three.txt **
-** write: /three.txt **
 ** write: /three.txt **
 ** flush /three.txt **
 ** release /three.txt **
+
 
