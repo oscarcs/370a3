@@ -12,5 +12,5 @@
 
 int main(int argc, const char* argv[]) {
     system("rm -r ./.versiondir");
-    system("fuser mount -u mount");
+    system("fusermount -u mount");
 }
