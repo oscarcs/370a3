@@ -7,3 +7,10 @@ __pycache__/
 
 # Version directory
 .versiondir/
+
+# binaries
+listversions
+mkcurrent
+catversion
+rmversions
+shutdownversions
